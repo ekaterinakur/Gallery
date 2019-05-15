@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.images {
+    max-width: 790px;
+    margin: 0 auto;
+}
+
+.big-img {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    width: 19%;
+}
+
+li:not(:last-child) {
+    margin-right: 1.25%;
+}
+
+.small-img {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+.small-img:hover {
+    border: 1px solid yellow;
+    cursor: pointer;
+}
