@@ -1,3 +1,5 @@
+// better to use `addEventListener` and `querySelector`
+
 const bigImg = document.getElementById('bigImg');
 const imgList = document.getElementById('imgList');
 
