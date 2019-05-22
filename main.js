@@ -1,7 +1,7 @@
-const bigImg = document.getElementById('bigImg');
-const imgList = document.getElementById('imgList');
+const bigImg = document.querySelector('#bigImg');
+const imgList = document.querySelector('#imgList');
 
-imgList.onclick = (e) => {
+imgList.addEventListener('click', (e) => {
   bigImg.src = e.target.src;
   bigImg.alt = e.target.alt;
-}
+});
